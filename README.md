@@ -13,7 +13,7 @@ project and the props are 100% compatible.
 
 ```bash
 
-npm i nextjs13-app-router-progress
+npm i nextjs13-nprogress-app-router
 
 ```
 
@@ -26,7 +26,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
-import { Next13NProgress, Link } from 'nextjs13-app-router-progress';
+import { Next13NProgress, Link } from 'nextjs13-nprogress-app-router';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -89,7 +89,7 @@ Don't attach the progressbar `onClick` event if we've already supplied an `onCli
 
 import NextLink, { LinkProps } from 'next/link';
 import { forwardRef } from 'react';
-import { linkClicked as progressBarLinkClicked } from 'nextjs13-app-router-progress';
+import { linkClicked as progressBarLinkClicked } from 'nextjs13-nprogress-app-router';
 
 export const Link = forwardRef<HTMLAnchorElement, LinkProps>((
 	{ onClick, ...rest },
