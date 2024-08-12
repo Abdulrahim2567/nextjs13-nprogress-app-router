@@ -160,7 +160,7 @@ export function linkClicked(event: React.MouseEvent<HTMLAnchorElement, MouseEven
 
 ## Demo
 
-[Click Here](https://abdulrahim-portfolio.vercel.app/) for a full working Next.js demo site.
+[Click Here](https://skilled-association.vercel.app/) for a full working Next.js demo site.
 
 ## Contributors
 
@@ -179,7 +179,7 @@ Contributions are always welcome! To contribute, simply fork, make your change a
 
 ## Thanks
 
-Special thanks to [# design1](https://github.com/designly1) for his for this starter project. I borrowed much of the code from that project to make this package.
+Special thanks to [# design1](https://github.com/designly1) for this starter project. I borrowed much of the code from that project to make this package.
 
 ## License
 

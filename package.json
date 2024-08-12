@@ -1,6 +1,6 @@
 {
   "name": "nextjs13-nprogress-app-router",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "An implementation of n-progress for use with the Next.js 13 app router.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -53,6 +53,7 @@
   },
   "dependencies": {
     "@types/nprogress": "^0.2.3",
+    "nextjs13-nprogress-app-router": "^1.1.1",
     "nprogress": "^0.2.0",
     "prop-types": "^15.8.1"
   }

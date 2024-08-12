@@ -11,6 +11,9 @@ dependencies:
   next:
     specifier: '>=13.4'
     version: 14.0.4(@babel/core@7.23.7)(react-dom@18.2.0)(react@18.2.0)
+  nextjs13-nprogress-app-router:
+    specifier: ^1.1.1
+    version: 1.1.1(next@14.0.4)(react@18.2.0)
   nprogress:
     specifier: ^0.2.0
     version: 0.2.0
@@ -3730,6 +3733,19 @@ packages:
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
+    dev: false
+
+  /nextjs13-nprogress-app-router@1.1.1(next@14.0.4)(react@18.2.0):
+    resolution: {integrity: sha512-Fsqgb1t7M0jiJ1n4PoTZqkd7926i9goc64y8zNdAwZQHxAIH5JGrIKBhdJH18axeme4MLUd84PdgO+6SnULzYA==}
+    peerDependencies:
+      next: '>=13.4'
+      react: '>=17.0.0'
+    dependencies:
+      '@types/nprogress': 0.2.3
+      next: 14.0.4(@babel/core@7.23.7)(react-dom@18.2.0)(react@18.2.0)
+      nprogress: 0.2.0
+      prop-types: 15.8.1
+      react: 18.2.0
     dev: false
 
   /node-int64@0.4.0:
